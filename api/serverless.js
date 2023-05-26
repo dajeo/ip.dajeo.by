@@ -1,7 +1,13 @@
 ﻿import Fastify from 'fastify'
+import cors from '@fastify/cors'
 
 const app = Fastify({
     logger: false
+})
+
+app.register(cors, {
+    origin: '*',
+    methods: ['GET']
 })
 
 app.register(import('../functions/index.js'), {
