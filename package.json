@@ -1,8 +1,8 @@
 {
-  "name": "ymkproxy",
+  "name": "ip",
   "version": "1.0.0",
   "type": "module",
-  "author": "Headcrab",
+  "author": "dajeo",
   "scripts": {
     "start": "node api/serverless.js"
   },
