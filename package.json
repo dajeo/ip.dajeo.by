@@ -1,0 +1,14 @@
+{
+  "name": "ymkproxy",
+  "version": "1.0.0",
+  "type": "module",
+  "author": "Headcrab",
+  "scripts": {
+    "start": "node api/serverless.js"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.2.1",
+    "fastify": "^4.15.0",
+    "node-fetch": "^3.2.10"
+  }
+}
