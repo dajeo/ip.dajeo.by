@@ -6,7 +6,7 @@ const app = Fastify({
 })
 
 app.register(cors, {
-    origin: 'https://vpn.vercel.app',
+    origin: ['https://vpn.vercel.app', 'http://localhost:5173/'],
     methods: ['GET']
 })
 
