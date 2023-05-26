@@ -7,8 +7,6 @@
     "start": "node api/serverless.js"
   },
   "dependencies": {
-    "@fastify/cors": "^8.2.1",
-    "fastify": "^4.15.0",
-    "node-fetch": "^3.2.10"
+    "fastify": "^4.15.0"
   }
 }
