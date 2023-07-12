@@ -4,5 +4,8 @@
             "source": "/(.*)",
             "destination": "/api/serverless.js"
         }
-    ]
+    ],
+    "github": {
+        "silent": true
+    }
 }
